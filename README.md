@@ -27,6 +27,9 @@ npm i hexo-generator-feed \
       hexo-generator-archive \
       --save
 
+# Set some nice-to-have configuration options
+sed -i 's/relative_link: false/relative_link: true/g' _config.yml
+
 # Start the hexo server
 hexo server
 ```
