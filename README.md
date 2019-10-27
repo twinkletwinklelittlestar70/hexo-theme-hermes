@@ -13,7 +13,7 @@ cd blog
 
 # Install Hermes theme
 git clone https://github.com/claymcleod/hexo-theme-hermes.git themes/hermes
-sed -i "s/theme: landscape/theme: hermes/g" _config.yml
+sed -i.bak "s/theme: landscape/theme: hermes/g" _config.yml && rm _config.yml.bak
 rm -r themes/landscape
 
 # Install required plugins
@@ -28,7 +28,7 @@ npm i hexo-generator-feed \
       --save
 
 # Set some nice-to-have configuration options
-sed -i 's/relative_link: false/relative_link: true/g' _config.yml
+sed -i.bak 's/relative_link: false/relative_link: true/g' _config.yml && rm _config.yml.bak
 
 # Start the hexo server
 hexo server
