@@ -8,9 +8,8 @@ favicon: /favicon.png
 logo: /favicon.png
 
 # Comment
-# e.g disqus: seansun
+# e.g disqus: claymcleod 
 disqus:
-duoshuo:
 
 # Analytics
 # google-analytics:

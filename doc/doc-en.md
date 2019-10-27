@@ -69,10 +69,10 @@ If you want to show excerpt(core content of article) to your visitors, do add HT
 
 ## Comment Plugin
 
-Hexo-theme-hermes support two comment plugins: Disqus and Duoshuo. please set like this in your `themes/hermes/_config.yml`:
+Hexo-theme-hermes supports comment plugins for Disqus. please set like this in your `themes/hermes/_config.yml`:
 
 ```yaml
-disqus: seansun
+disqus: claymcleod
 ```
 
 ## Danger Block
