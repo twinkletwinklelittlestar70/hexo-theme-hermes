@@ -17,3 +17,6 @@ disqus:
 
 # Copyright Infomation
 startyear: 2019
+
+# Image Credits
+enable_image_credit: true 
