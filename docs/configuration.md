@@ -5,6 +5,7 @@
 - [Displaying Post Previews](#displaying-post-previews)
 - [Comments](#comments)
 - [Danger Block](#danger-block)
+- [Archives](#archives)
 
 ## Meta Descriptions
 
@@ -64,3 +65,15 @@ This is an example danger message!
 ```
 
 ![Danger message example](images/danger-message-browser.png)
+
+## Archives
+
+You can modify the `/archives/` section of the site by included any of the [hexo-generator-archive](https://github.com/hexojs/hexo-generator-archive) options to your `_config.yml` file under `theme`.
+
+```
+archive_generator:
+    per_page: 0
+    yearly: false
+    monthly: false
+    daily: false
+```

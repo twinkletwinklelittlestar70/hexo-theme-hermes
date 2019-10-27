@@ -1,51 +1,58 @@
-![hexo-theme-hermes](https://cloud.githubusercontent.com/assets/9530963/13026956/08e76eca-d277-11e5-8bfc-2e80cea20a0d.png)
+# Hexo Theme Hermes
 
-## 文档
+![Hello Hermes!](docs/images/hermes-hello-world.png)
 
-- [中文文档](https://github.com/claymcleod/hexo-theme-hermes/blob/master/doc%2Fdoc-zh.md)
-- [Document](https://github.com/claymcleod/hexo-theme-hermes/blob/master/doc%2Fdoc-en.md)
+## Getting Started
 
-## 贡献
+You can get up and running quickly with this hexo theme by running the following commands
 
-该项目不再接受添加新特性、功能的 pull request，所有创造性的想法请 fork 该项目之后自由发挥。
+```bash
+# Generate new blog
+hexo init blog
+cd blog
 
-## 安装
-
-``` bash
-hexo init Blog 
-cd Blog 
-npm install
-npm install --save hexo-renderer-pug hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
+# Install Hermes theme
 git clone https://github.com/claymcleod/hexo-theme-hermes.git themes/hermes
+sed -i "s/theme: landscape/theme: hermes/g" _config.yml
+rm -r themes/landscape
+
+# Install required plugins
+npm i hexo-renderer-pug --save
+
+# Install recommended plugins
+npm i hexo-generator-feed \
+      hexo-generator-feed \
+      hexo-generator-sitemap \
+      hexo-browsersync \
+      hexo-generator-archive \
+      --save
+
+# Start the hexo server
+hexo server
 ```
+To update your copy of the theme at any time, simply do
 
-## 启用
-
-修改 `_config.yml` 的 `theme` 配置项为 `hermes`:
-
-```yaml
-theme: hermes
-
-# 在归档页面显示所有文章
-# 需要上面安装的 hexo-generator-archive 插件支持
-archive_generator:
-    per_page: 0
-    yearly: false
-    monthly: false
-    daily: false
-```
-
-## 更新
-
-``` bash
-cd themes/hermes 
+```bash
+cd themes/hermes
 git pull
 ```
 
+## Documentation
+
+You can find relevant documentation in the `docs/` folder. Specifically, you might be interested in docs on:
+
+* [Configuration](docs/configuration.md)
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## Authors and Acknowledgments
+
+This theme was forked and modified moderately from [pinggod's](https://github.com/pinggod) [hexo-theme-apollo](https://github.com/pinggod/hexo-theme-apollo) repo. I owe them a lot of credit for creating the foundation for this theme.
+
 ## License
 
-MIT
-
-## Gatsby Theme
-
-如果你正在使用 Gatsbyjs 建站，欢迎使用专为 Gatsbyjs 开发的主题 [gatsby-theme-wink](https://github.com/pinggod/gatsby-theme-wink) 😘
+[MIT](https://choosealicense.com/licenses/mit/)
