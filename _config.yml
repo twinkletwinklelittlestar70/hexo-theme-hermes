@@ -1,8 +1,8 @@
 menu:
     Blog: /
-    Archive: /archives/
     GitHub: https://github.com/claymcleod
-    Rss: /atom.xml
+    Archive: /archives/
+    Feed: /atom.xml
 
 favicon: favicon.png
 logo: favicon.png
