@@ -1,5 +1,5 @@
 {
-  "name": "hexo-theme-apollo",
+  "name": "hexo-theme-hermes",
   "version": "1.0.0",
   "description": "A hexo theme inspired by vuejs.org",
   "main": "index.js",
@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pinggod/hexo-theme-apollo"
+    "url": "https://github.com/claymcleod/hexo-theme-hermes"
   },
   "keywords": [
     "hexo",
     "theme",
-    "apollo"
+    "hermes"
   ],
   "author": "Sean Sun",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pinggod/hexo-theme-apollo/issues"
+    "url": "https://github.com/claymcleod/hexo-theme-hermes/issues"
   },
-  "homepage": "https://github.com/pinggod/hexo-theme-apollo#readme",
+  "homepage": "https://github.com/claymcleod/hexo-theme-hermes#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
