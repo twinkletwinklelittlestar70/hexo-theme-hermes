@@ -8,10 +8,11 @@ logo: favicon.png
 
 # Comment
 # e.g disqus: claymcleod 
-disqus:
+disqus: true
 
 # Analytics
 # ga: UA-xxxxxxxx-x
+ga: UA-210509391-1
 
 # Copyright Infomation
 startyear: 2019
